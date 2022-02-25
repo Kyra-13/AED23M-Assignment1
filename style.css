@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e8b887;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  position: static;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #d88632;
+  color: white;
+}
+
+/* Style the heading */
+.heading {
+	border-style: solid;
+	background-color: #c9daea;
+	padding: 10px;
+	border-width: 0px 0px 1px 0px;
+	margin: 0;
+}
+
+.heading h1 {
+	text-align: center;
+	color: rgb(226,126,63);
+	font-size: 60px;
+	font-family: Palatino;
+	margin-top: 50px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.heading h3 {
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.heading img{
+	height: 300px;
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Style the About */
+
+.about {
+	background-color: #ffec99;
+	padding: 10px;
+	margin: auto;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+
+}
+.about h2 {
+	color: black;
+	text-align:left;
+	font-family: Palatino;
+	font-size: 25px;
+	text-decoration: none;
+	margin-left:10px;
+}
+.about h3 {
+	color: #d88632;
+	text-align:left;
+	font-size:15px;
+	text-decoration:none;
+	margin-left:10px;
+
+}
+.about p {
+	color: black;
+	text-align:left;
+	font-size:12px;
+	text-decoration:none;
+	margin-left:10px;
+
+}
+
+/* Style the Exhibition Gallery */
+
+.gallery.exhibit {
+	width: 100%;
+	display: block;
+}
+
+.gallery h4 {
+	color #d88632;
+	font-family: Palatino;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+div.exhibit {
+	margin: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 181px; 
+	height: 300px;
+
+}
+
+div.exhibit:hover {
+	border: 1px solid #777;
+}
+
+div.exhibit img {
+	width: 180px;
+	height: 120px;
+}
+
+div.desc p {
+	padding: 10px;
+	padding-top: 0px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;
+	width: 180px;
+}
+
+div.desc h5 {
+	text-align: center;
+	font-family: Palatino;
+	font-size: 15px;
+}
+
+
+/* Style the Information Section */
+
+.info1 {
+	display: block;
+	clear: left;
+	background-color: #c9daea;
+}
+
+.info1 h4 {
+	color: black;
+	font-family: Palatino;
+	text-align:left;
+	font-size:25px;
+	text-decoration:none;
+	margin-left:10px;
+}
+	
+.info1 h5 {
+	color: #d88632;
+	font-family: Palatino;
+	text-align:center;
+	font-size:20px;
+	text-decoration:none;
+	margin-left:10px;
+}
+
+.info1 p {
+	font-size: 15px;
+	text-align:left;
+	text-decoration: none;
+	margin-left:10px;
+}
+	
+.info1 img {
+	width: 198px;
+	height: 132px;
+	float: right;
+	margin-right: 10px;
+}
+
+.info1 p strong {
+	color: #d88632;
+
+}
+
+.info1 a {
+	margin-left: 10px;
+	color: #d88632;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+}
+
+.info1 a:visited {
+	margin-left: 10px;
+	color: #d88632;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+
+}
+
+
+.info2 {
+	display: block;
+	clear: left;
+	background-color: #ffec99;
+}
+
+.info2 h4 {
+	color: black;
+	font-family: Palatino;
+	text-align:left;
+	font-size:25px;
+	text-decoration:none;
+	margin-left:10px;
+}
+	
+.info2 h5 {
+	color: #d88632;
+	font-family: Palatino;
+	text-align:center;
+	font-size:20px;
+	text-decoration:none;
+	margin-left:10px;
+}
+
+.info2 p {
+	font-size: 15px;
+	text-align:left;
+	text-decoration: none;
+	margin-left:10px;
+}
+	
+.info2 img {
+	width: 198px;
+	height: 132px;
+	float: right;
+	margin-right: 10px;
+}
+
+.info2 p strong {
+	color: #d88632;
+
+}
+
+.info2 a {
+	margin-left: 10px;
+	color: #d88632;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+}
+
+.info2 a:visited {
+	margin-left: 10px;
+	color: #d88632;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+
+}
+
+/* Style the footer */
+.footer {
+	float: after;
+	border-style: solid;
+	position: static;
+	background-color: #e8b887;
+	padding: 10px;
+	border-width: 1px 0px 0px 0px;
+	text-align: center;
+	
+}
+
+
+.footer a {
+	color: #000000;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+}
+
+.footer a:active {
+	color: #ffffff;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+
+.footer a:visited {
+	color: #000000;
+	text-decoration-line: underline;
+	margin-bottom: 10px;
+
+
+
+
+
+
+
+
+
+
+
